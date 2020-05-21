@@ -1,0 +1,19 @@
+.searchbar{
+appearance: none;
+border: none;
+padding: 10px;
+width: 200px;
+margin-bottom:30px ;
+font-size: 24px;
+font-family: cursive;
+border-radius: 30%;
+color: blue;
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.searchbar:focus{
+    outline: none;
+}
+.searchbar::placeholder{
+    font-size: 15px;
+    color: black;
+}
